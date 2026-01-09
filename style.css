@@ -1,5 +1,52 @@
-nav {
-    background-color: #333;
+.container {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 120px 16px;
+}
+.features ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+#access {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #30b868;
     color: white;
-    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero-section {
+    background-image: url('./assets/hero-bg.png');
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 120px;
+    background-size: cover;
+    background-position: center;
+}
+.hero-bridge {
+    background-color: white;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: #30b868;
+    font-weight: bold;
+}
+/* .button-last{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #30b868;
+} */
+#start-building{
+    background-color: #30b868;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 5px 5px 10px 5px;
+    border-radius: 5px;
 }
