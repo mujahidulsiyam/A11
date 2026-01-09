@@ -37,16 +37,20 @@
     color: #30b868;
     font-weight: bold;
 }
-/* .button-last{
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #30b868;
-} */
-#start-building{
-    background-color: #30b868;
+.hero-last {
     color: white;
-    border: none;
-    font-size: 16px;
-    padding: 5px 5px 10px 5px;
-    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.div1{
+    background-color: #30b868;
+    padding: 12px 16px;
+    border-radius: 4px;
+}
+.div2{
+    background-color:transparent;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 1px solid white;
 }
