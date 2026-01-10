@@ -158,7 +158,7 @@
 }
 .footer-section{
     background-color: #001931;
-    height: 300px;
+    height: 400px;
     width: 100%;
 }
 #Footer-sections-container
@@ -171,9 +171,18 @@
     align-items: center;
     padding: 120px 120px 164px 120px;
 }
-#Footer-sections-container #footer-section-2 li{
+#footer-section-2 ul{
     list-style: none;
     text-decoration: none;
-    color: white;
-    line-height: 2.5;
+    display: flex;
+    gap : 16px;
+    
+}
+#footer-section-2{
+    align-items: center;
+    text-align: center;
+}
+#footer-section-3{
+    align-items: center;
+    text-align: center;
 }
