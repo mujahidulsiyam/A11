@@ -1,3 +1,6 @@
+*:hover{
+    cursor: pointer;
+}
 .container {
     background-color: #FFFFFF;
     display: flex;
@@ -53,4 +56,124 @@
     padding: 12px 16px;
     border-radius: 4px;
     border: 1px solid white;
+}
+#after-hero {
+    text-align: center;
+    margin: 0px 120px;
+}
+#after-hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: auto;
+}
+#after-hero p {
+    margin-top: 16px;
+    font-size: 16px;
+    color: #555555;
+}
+.div-four {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 44px 120px 48px;
+}
+.div-four div {
+    background-color: #F5F5F5;
+    height: 200px;
+    width: 300px;
+    padding: 24px;
+    text-align: center;
+}
+.div-four div .div-four-item h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.div-four div .div-four-item p {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #555555;
+}
+.div-four div img {
+    background-color: #F95555;
+    border-radius: 80%;
+    background-size: cover;
+}
+#Second-Brain-Section{
+    display: flex;
+    gap : 60px;
+    margin: 100px 120px 20px 120px;
+    
+}
+.second-brain{
+    height: 700px;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.second-brain-image{
+    height: 600px;
+    width: 600px;
+}
+#checkmark-text{
+    font-size: 16px;
+    margin-top: 16px;
+}
+.second-brain p{
+    font-size: 16px;
+    font-size: small;
+    color: #555555;    
+}
+#clour-green{
+    color: #30b868;
+}
+
+#btn{
+    padding: 16.5px;
+    margin-top: 24px 543px 16px;
+    background-color: #30b868;
+    box-shadow: gray;
+    border: white;
+    color: white;
+}
+.Early-access-section{
+    margin-top: none;
+    text-align: center;
+    background-color: white;
+}
+.early-access-content{
+    background-color: #F5F5F5;
+    padding: 2px 120px 40px 120px;
+    box-sizeing: border-box;
+}
+.footer{
+    background-color: #333333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 120px 40px;
+}
+.footer-section{
+    background-color: #001931;
+    height: 300px;
+    width: 100%;
+}
+#Footer-sections-container
+{
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    height: 64px;
+    width: 1360px;
+    align-items: center;
+    padding: 120px 120px 164px 120px;
+}
+#Footer-sections-container #footer-section-2 li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    line-height: 2.5;
 }
